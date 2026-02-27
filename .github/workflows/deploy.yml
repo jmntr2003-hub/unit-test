@@ -51,4 +51,4 @@ jobs:
         with:
           api_token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           account_id: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: deploy dist/practice4/index.js --name spring-salad-dcee --compatibility-date 2026-02-26 --compatibility-flags=nodejs_compat --assets-dir dist/practice4/client
+          command: deploy dist/practice4/index.js --name spring-salad-dcee --compatibility-date 2026-02-26 --compatibility-flags=nodejs_compat --assets dist/client
